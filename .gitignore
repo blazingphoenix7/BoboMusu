@@ -1,0 +1,25 @@
+# Rhino lock & backup files
+*.rhl
+*.3dmbak
+*.3dm.bak
+
+# Debug images from preprocess_fp.py
+designs/output/_dbg_*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Claude harness state (lives outside the working tree, but belt-and-suspenders)
+.claude/
